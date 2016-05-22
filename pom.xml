@@ -11,7 +11,7 @@
 
     <properties>
         <min.coverage>100</min.coverage>
-        <appengine.app.version>2</appengine.app.version>
+        <appengine.app.version>1</appengine.app.version>
         <appengine.target.version>1.9.31</appengine.target.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <guice.version>4.0</guice.version>
@@ -95,6 +95,20 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
+        </dependency>
+        <!-- Mockito -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Apache Common Lang -->
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
