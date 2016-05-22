@@ -1,0 +1,13 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+*.iml
+*.psd
+.idea/
+.navigation/
+target
