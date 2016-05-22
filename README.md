@@ -40,3 +40,17 @@ The api can be easily injected into tests.
         }
 
     }
+
+# Configure
+
+Set the application name, changing the appengine-web.xml file.
+
+    <application>my-app-engine-project</application>
+
+The name to add is the google app engine project name.
+
+# Run
+
+To deploy this project on Google App Engine run the following command
+
+mvn clean compile -U appengine:update
